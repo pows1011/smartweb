@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>0723</display-name>
+<context-param>
+<param-name>driver</param-name>
+<param-value>com.mysql.jdbc.Driver</param-value>
+</context-param>
+
+<context-param>
+<param-name>savePath</param-name>
+<param-value>c://temp</param-value>
+</context-param>
+<!-- 반드시 Servlet전에 명시해야함. -->
+
+</web-app>
